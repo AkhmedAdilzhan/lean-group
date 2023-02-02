@@ -1,0 +1,105 @@
+.feedback {
+    display: flex;
+
+    .feedback__textblock {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+
+
+        &-title {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 40px;
+            align-items: center;
+            padding: 20px 24px 0 16px;
+            color: #2C2D2E;
+
+            &-span {
+                color: #EF7C00;
+            }
+        }
+
+        &-description {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;
+            width: 400px;
+            padding: 16px 20px 36px;
+
+            color: #2C2D2E;
+        }
+
+        .form__group {
+            display: flex;
+            padding: 0 20px;
+
+            .form__input-name {
+                width: 178px;
+                height: 40px;
+                padding-left: 4px;
+                margin-left: 12px;
+                border: 1px solid rgba(0, 16, 61, 0.12);
+                border-radius: 0px 4px 4px 0px;
+            }
+            .namelabel{
+                display: flex;
+                align-items: center;
+                width: 178px;
+                height: 40px;
+                padding: 13px;
+                border: 1px solid rgba(0, 16, 61, 0.12);
+                border-radius: 4px 4px 4px 4px;
+            }
+            .telephonelabel{
+                margin-left: 59px;
+                display: flex;
+                align-items: center;
+                width: 178px;
+                height: 40px;
+                padding: 13px;
+                border: 1px solid rgba(0, 16, 61, 0.12);
+                border-radius: 4px 4px 4px 4px;
+            }
+            .form__input-telephone {
+                width: 178px;
+                height: 40px;
+                padding-left: 4px;
+                margin-left: 12px;
+                border: 1px solid rgba(0, 16, 61, 0.12);
+                border-radius: 0px 4px 4px 0px;
+            }
+
+            .form__input-textarea {
+                width: 446px;
+                margin-top: 12px;
+                border: 1px solid rgba(0, 16, 61, 0.12);
+                border-radius: 0px 4px 4px 0px;
+
+            }
+
+            .form__button {
+                width: 225px;
+                height: 40px;
+                color: #FFFFFF;
+                background: #EF7C00;
+                border-radius: 4px;
+                border: 1px solid rgba(0, 16, 61, 0.12);
+                margin-top: 12px;
+                
+            }
+        }
+
+
+
+    }
+
+    .feedback__img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 80px;
+
+    }
+}

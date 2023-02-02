@@ -1,0 +1,31 @@
+@mixin sliderBtn($bgImg) {
+    cursor: pointer;
+    font-size: 0;
+    background: url($bgImg);
+    top: 50%;
+    transform: translateY(-50%);
+    width: 27px;
+    height: 51px;
+    position: absolute;
+}
+
+@mixin sliderBtns{
+    .custom-next {
+        @include sliderBtn('../images/Certificates/Right.png');
+        right: -60px;
+    }
+    .custom-prev {
+        @include sliderBtn('../images/Certificates/Left.png');
+        left: -60px;
+    }
+}
+@mixin sliderNav{
+    .owl-theme .owl-nav {
+        margin-top: 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        @include sliderBtns;
+    }
+}
