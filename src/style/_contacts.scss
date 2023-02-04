@@ -1,0 +1,103 @@
+.contacts {
+    background: rgba(0, 16, 61, 0.06);
+    
+
+    .col-3 {
+        margin-top: 32px;
+        gap: 31px;
+       
+    }
+
+    .country {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+
+
+        /* color-text */
+
+        color: #2C2D2E;
+    }
+
+    .phonenumber {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 13px;
+        /* identical to box height, or 100% */
+
+
+        /* color-text-secondary */
+
+        color: #919399;
+        margin-top: 24px;
+        margin-bottom: 4px;
+    }
+
+    .tlphnbr {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        /* identical to box height, or 133% */
+        margin-top: 4px;
+        margin-bottom: 4px;
+
+        color: #2C2D2E;
+    }
+
+    .emailrow {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 13px;
+        /* identical to box height, or 100% */
+
+
+        /* color-text-secondary */
+
+        color: #919399;
+        margin-top: 8px;
+        margin-bottom: 4px;
+    }
+
+    .mail {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        /* identical to box height, or 133% */
+        margin-top: 4px;
+        margin-bottom: 4px;
+
+        color: #2C2D2E;
+    }
+
+    .addressrow {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 13px;
+        /* identical to box height, or 100% */
+        margin-top: 8px;
+        margin-bottom: 8px;
+
+        /* color-text-secondary */
+
+        color: #919399;
+    }
+
+    .address {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        /* or 133% */
+
+
+        color: #2C2D2E;
+    }
+    
+}

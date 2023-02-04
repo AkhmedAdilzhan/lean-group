@@ -1,0 +1,53 @@
+.news {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+
+    &__btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 52px;
+
+        &-newsbutton {
+            margin-bottom: 80px;
+            margin-top: 52px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;
+            text-align: center;
+            color: #EF7C00;
+            padding: 10px 20px;
+            border: 1px solid #EF7C00;
+            border-radius: 4px;
+            background-color: #FFFFFF;
+        }
+    }
+}
+
+
+    .red {
+        display: flex;
+        gap: 30px;
+        margin-top: 80px;
+
+    }
+
+
+.newsdate {
+    margin-top: 28px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    color: #919399;
+}
+
+.newsdescription {
+    margin-top: 8px;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2C2D2E;
+}

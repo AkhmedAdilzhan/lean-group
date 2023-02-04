@@ -1,7 +1,28 @@
 .team {
     margin-top: 80px;
     display: flex;
-   
+    justify-content: center;
+
+    &__btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 52px;
+
+        &-teambutton {  
+            margin-bottom: 40px;
+            margin-top: 52px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;
+            text-align: center;
+            color: #EF7C00;
+            padding: 10px 20px;
+            border: 1px solid #EF7C00;
+            border-radius: 4px;
+            background-color: #FFFFFF;
+        }
+    }
 }
 
 
@@ -89,18 +110,8 @@
     color: #2C2D2E;
 }
 
-.teambutton {
-    margin-left: 485px;
-    margin-top: 90px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
-    text-align: center;
-    color: #EF7C00;
-    padding: 10px 20px;
-    border: 1px solid #EF7C00;
-    border-radius: 4px;
-    display: inline-block;
-    background-color: #FFFFFF;
+.teambtn {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
 }

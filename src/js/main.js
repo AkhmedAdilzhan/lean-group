@@ -20,10 +20,10 @@ $(document).ready(function () {
         certSlider.trigger('prev.owl.carousel', [300]);
     });
     //Табы на странице
-    $('ul.products-tabs__caption').on('click', 'li:not(.products-tabs__btn_active)', function () {
+    $('.products-tabs__caption').on('click', 'li:not(.products-tabs__btn_active)', function () {
         $(this)
-            .addClass('products-tabs__btn_active').siblings().toggleClass('products-tabs__btn_active')
-            .closest('div.products-tabs').find('div.products-tabs__content').toggleClass('products-tabs__content_active').eq($(this).index()).toggleClass('products-tabs__content_active');
+            .addClass('products-tabs__btn_active').siblings().removeClass('products-tabs__btn_active')
+            .closest('div.products-tabs').find('div.products-tabs__content').toggleClass('products-tabs__content_active').eq($().index(this)).toggleClass('products-tabs__content_active');
     });
     //Burger
     $('.burger-menu').click(function(){

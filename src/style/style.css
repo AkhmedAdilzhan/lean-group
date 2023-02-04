@@ -564,6 +564,26 @@ ul {
 .team {
   margin-top: 80px;
   display: flex;
+  justify-content: center;
+}
+.team__btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 52px;
+}
+.team__btn-teambutton {
+  margin-bottom: 40px;
+  margin-top: 52px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #EF7C00;
+  padding: 10px 20px;
+  border: 1px solid #EF7C00;
+  border-radius: 4px;
+  background-color: #FFFFFF;
 }
 
 .box {
@@ -635,9 +655,25 @@ ul {
   color: #2C2D2E;
 }
 
-.teambutton {
-  margin-left: 485px;
-  margin-top: 90px;
+.teambtn {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+}
+
+.news {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+.news__btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 52px;
+}
+.news__btn-newsbutton {
+  margin-bottom: 80px;
+  margin-top: 52px;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -647,6 +683,141 @@ ul {
   padding: 10px 20px;
   border: 1px solid #EF7C00;
   border-radius: 4px;
-  display: inline-block;
   background-color: #FFFFFF;
+}
+
+.red {
+  display: flex;
+  gap: 30px;
+  margin-top: 80px;
+}
+
+.newsdate {
+  margin-top: 28px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 13px;
+  color: #919399;
+}
+
+.newsdescription {
+  margin-top: 8px;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2C2D2E;
+}
+
+.contacts {
+  background: rgba(0, 16, 61, 0.06);
+}
+.contacts .col-3 {
+  margin-top: 32px;
+  gap: 31px;
+}
+.contacts .country {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  /* color-text */
+  color: #2C2D2E;
+}
+.contacts .phonenumber {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 13px;
+  /* identical to box height, or 100% */
+  /* color-text-secondary */
+  color: #919399;
+  margin-top: 24px;
+  margin-bottom: 4px;
+}
+.contacts .tlphnbr {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  /* identical to box height, or 133% */
+  margin-top: 4px;
+  margin-bottom: 4px;
+  color: #2C2D2E;
+}
+.contacts .emailrow {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 13px;
+  /* identical to box height, or 100% */
+  /* color-text-secondary */
+  color: #919399;
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+.contacts .mail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  /* identical to box height, or 133% */
+  margin-top: 4px;
+  margin-bottom: 4px;
+  color: #2C2D2E;
+}
+.contacts .addressrow {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 13px;
+  /* identical to box height, or 100% */
+  margin-top: 8px;
+  margin-bottom: 8px;
+  /* color-text-secondary */
+  color: #919399;
+}
+.contacts .address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  /* or 133% */
+  color: #2C2D2E;
+}
+
+.footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 403px;
+  background: rgba(0, 16, 61, 0.06);
+  z-index: 1;
+}
+
+.footertop {
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footericons {
+  display: flex;
+  align-items: flex-end;
+  gap: 24px;
+}
+
+.footerline {
+  content: "";
+  width: 100%;
+  height: 1px;
+  margin-top: 10px;
+  background-color: #919399;
+}
+
+.footecol1 {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
